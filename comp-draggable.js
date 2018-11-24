@@ -2,9 +2,6 @@ import EventUtil from 'util-events'
 cc.Class({
   name: 'Draggable',
   extends: cc.Component,
-  editor: CC_EDITOR && {
-    help: 'https://code.vipkid.com.cn/lingobus-fe/games/library/comp-draggable/wikis/home'
-  },
   properties: {
     tag: "",
     draggingZIndex: {
